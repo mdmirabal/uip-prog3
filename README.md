@@ -5,11 +5,11 @@ Programación de Computadoras III - UIP
 ======================================
 
 
-:Autor: <nombre>
+:Autor: 'Moises Mirabal
 
-:Fecha: <fecha>
+:Fecha: '20/09/2015
 
-:Versión: <version>
+:Versión: '1'
 
 
 <descripcion>
