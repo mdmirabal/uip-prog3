@@ -10,14 +10,15 @@ while clientes <5:
 	if (monto >= 500):
 		subtotal =  monto * ofer1
 		total = monto - subtotal
-		print("El total es {0}: ".format(total))
+		print("El total es {0}$: ".format(total))
 	elif  (monto < 500 and monto >= 200) :
 		subtotal = monto * ofer2
 		total = monto - subtotal
-		print("El total es {0}: ".format(total))
+		print("El total es {0}$: ".format(total))
 	elif  monto < 200 and monto >= 100 :
 		subtotal = monto * ofer3
 		total = monto - subtotal
-		print("El total es {0}: ".format(total))
+		print("El total es {0}$: ".format(total))
 	else:
-		print("No hay descuento \n Gracias por su compra")
+		total = monto
+		print("Para este monto no hay descuento, su total es {0}$ \n Gracias por su compra".format(total))
