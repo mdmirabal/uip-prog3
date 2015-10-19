@@ -1,0 +1,3 @@
+Aderezos=Ketchup,Barbecue,Tartara,Mostaza
+Frutas=Naranja,Melon,Uva,Banana
+Vegetales=Tomate,Cebolla,Pimenton,Aji
