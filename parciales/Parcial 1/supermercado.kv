@@ -1,3 +1,4 @@
+#:import FadeTransition kivy.uix.screenmanager.FadeTransition
 <ScreenManager>:
 	pro:pro
 	codigo:codigo
@@ -5,6 +6,7 @@
 	busquedad:busquedad
 	producto:""
 	precio: ""
+	transition: FadeTransition()
 	Screen:	
 		name: 'ingreso'
 		canvas:
@@ -16,7 +18,7 @@
 		BoxLayout:
 			orientation: 'vertical'
 			Label:
-				text: 'SUPERMERCADO HOLAN'
+				text: 'SUPERMERCADO HOTAN'
 			GridLayout:
 				cols: 1
 				Label:

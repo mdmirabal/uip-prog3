@@ -1,6 +1,6 @@
 from kivy.app import App
 from kivy.properties import ObjectProperty
-from kivy.uix.screenmanager import ScreenManager,Screen
+from kivy.uix.screenmanager import ScreenManager,Screen, FadeTransition
 
 
 class ScreenManager(ScreenManager):
