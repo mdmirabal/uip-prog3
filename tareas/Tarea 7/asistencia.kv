@@ -1,0 +1,25 @@
+#:import save Tarea7.guardar
+#:import export Tarea7.exportar
+
+GridLayout:
+    cols: 2
+    Label:
+        text: "NOMBRE"
+        font_size: 35
+    TextInput:
+        text: " "
+        multiline: False
+        font_size: 35
+        id: name
+    Button:
+        text: "GUARDAR"
+        background_color: .2, .7, 1, 1
+        font_size: 35
+        on_release: 
+            save(name.text)     
+    Button:
+        text: "EXPORTAR"
+        background_color: 1, .9, .9, .9
+        font_size: 35
+        on_release: 
+            export()
