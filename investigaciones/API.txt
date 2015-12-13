@@ -1,0 +1,8 @@
+"""
+	¿Qué es un API?
+	Una API es un conjunto de funciones y procedimientos que cumplen una o muchas funciones con el fin
+	de ser utilizadas por otro software. Las siglas API vienen del inglés Application Programming Interface.
+	En español sería Interfaz de Programación de Aplicaciones.
+	Una API nos permite implementar las funciones y procedimientos que engloba en nuestro proyecto sin la
+	necesidad de programarlas de nuevo. En términos de programación, es una capa de abstracción.
+"""
